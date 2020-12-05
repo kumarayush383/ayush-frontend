@@ -1,0 +1,15 @@
+.card-text{
+    height: 50px;
+    overflow: hidden;
+  }
+.mybtn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.mybtnclr{
+    margin-left:10px;
+}
+h4{
+    text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
