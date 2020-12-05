@@ -1,0 +1,10 @@
+<app-navigation></app-navigation>
+<h4>choose the Assets you need</h4>
+<div class="container">
+  <br>
+  <div class="row">
+    <div class="col-3 align-left" *ngFor="let product of products">
+      <app-product [product]="product" (productAddToCart)="addToCart($event)">Loading...</app-product>
+    </div>
+  </div>
+</div>
